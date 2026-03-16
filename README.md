@@ -128,3 +128,4 @@ EverMindTerminal/
 # fix: handle edge case in privacy_filter
 # refactor: extract helper functions in main.py
 # docs: update sequencer README
+# feat: add input validation to sanitise.py
