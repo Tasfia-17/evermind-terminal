@@ -204,3 +204,4 @@ EverMindTerminal/
 # fix: privacy filter false positives
 # refactor: consolidate README files
 # docs: add system requirements
+# feat: add multi-model comparison mode
