@@ -143,3 +143,4 @@ EverMindTerminal/
 # feat: add graceful shutdown to main.py
 # fix: memory leak in evermem_client
 # refactor: unify error messages across modules
+# docs: document environment variables in .env.template
