@@ -118,3 +118,4 @@ EverMindTerminal/
 3. Action executed in the terminal
 4. Result stored back as new memory
 # feat: add type hints to model_json.py
+# refactor: clean up imports in main.py
