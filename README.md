@@ -193,3 +193,4 @@ EverMindTerminal/
 # refactor: simplify evermem_client interface
 # docs: update concat model README
 # feat: add output formatting options
+# fix: model_3 response parsing error
