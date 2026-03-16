@@ -197,3 +197,4 @@ EverMindTerminal/
 # refactor: use pathlib in setup scripts
 # docs: add quickstart guide
 # feat: add debug logging flag
+# fix: pyproject.toml dependency version pins
