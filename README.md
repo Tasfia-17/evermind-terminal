@@ -151,3 +151,4 @@ EverMindTerminal/
 # feat: add color output to terminal GUI
 # fix: handle empty response in model_2.py
 # refactor: deduplicate code in model_3 and model_4
+# docs: add contributing guide to README
