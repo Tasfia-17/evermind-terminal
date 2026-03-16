@@ -212,3 +212,4 @@ EverMindTerminal/
 # fix: setup.ps1 path separator issue
 # refactor: reduce cyclomatic complexity in main.py
 # docs: add performance tips to README
+# feat: add model warm-up on startup
