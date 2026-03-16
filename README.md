@@ -169,3 +169,4 @@ EverMindTerminal/
 # refactor: extract config loader in main.py
 # docs: add badges to README
 # feat: support multiple memory backends
+# fix: handle API rate limit in model_6.py
