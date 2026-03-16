@@ -203,3 +203,4 @@ EverMindTerminal/
 # feat: add export command to terminal GUI
 # fix: privacy filter false positives
 # refactor: consolidate README files
+# docs: add system requirements
