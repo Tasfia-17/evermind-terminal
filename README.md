@@ -216,3 +216,4 @@ EverMindTerminal/
 # fix: json_parsing handles malformed input
 # refactor: extract prompt builder module
 # docs: finalize README for submission
+# chore: bump version in pyproject.toml
