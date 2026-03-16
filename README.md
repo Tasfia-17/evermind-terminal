@@ -211,3 +211,4 @@ EverMindTerminal/
 # feat: add auto-update check
 # fix: setup.ps1 path separator issue
 # refactor: reduce cyclomatic complexity in main.py
+# docs: add performance tips to README
