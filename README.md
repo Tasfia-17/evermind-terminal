@@ -201,3 +201,4 @@ EverMindTerminal/
 # refactor: improve error propagation in sequencer
 # docs: document all CLI flags
 # feat: add export command to terminal GUI
+# fix: privacy filter false positives
