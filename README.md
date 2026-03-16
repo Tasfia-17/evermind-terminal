@@ -173,3 +173,4 @@ EverMindTerminal/
 # refactor: improve privacy_filter patterns
 # docs: document memory module
 # feat: add progress indicator to terminal GUI
+# fix: crash on empty input in parser.py
