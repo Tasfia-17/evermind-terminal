@@ -159,3 +159,4 @@ EverMindTerminal/
 # feat: add timeout to API calls in model_5.py
 # fix: encoding issue in address.py
 # refactor: use f-strings throughout codebase
+# docs: update python-version note
