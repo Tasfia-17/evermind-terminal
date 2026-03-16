@@ -209,3 +209,4 @@ EverMindTerminal/
 # refactor: improve type annotations in parser
 # docs: add deployment notes
 # feat: add auto-update check
+# fix: setup.ps1 path separator issue
