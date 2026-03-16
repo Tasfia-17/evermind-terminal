@@ -165,3 +165,4 @@ EverMindTerminal/
 # refactor: consolidate model init code
 # docs: add FAQ to README
 # feat: add dry-run mode to setup.sh
+# fix: missing newline at end of sanitise.py
