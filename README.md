@@ -213,3 +213,4 @@ EverMindTerminal/
 # refactor: reduce cyclomatic complexity in main.py
 # docs: add performance tips to README
 # feat: add model warm-up on startup
+# fix: json_parsing handles malformed input
