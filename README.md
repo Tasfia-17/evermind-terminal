@@ -145,3 +145,4 @@ EverMindTerminal/
 # refactor: unify error messages across modules
 # docs: document environment variables in .env.template
 # feat: add model selection prompt
+# fix: strip whitespace in sanitiser
