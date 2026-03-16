@@ -120,3 +120,4 @@ EverMindTerminal/
 # feat: add type hints to model_json.py
 # refactor: clean up imports in main.py
 # docs: update README with usage examples
+# feat: improve error handling in sequencer
