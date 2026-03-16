@@ -1,0 +1,14 @@
+[project]
+name = "evermind-terminal"
+version = "1.0.0"
+description = "EverMind Terminal — AI terminal with long-term project memory powered by EverMemOS"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "pathlib>=1.0.1",
+    "pyqt5==5.15.3",
+    "python-dotenv>=1.2.1",
+    "supabase>=2.25.0",
+    "requests>=2.31.0",
+]
