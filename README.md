@@ -130,3 +130,4 @@ EverMindTerminal/
 # docs: update sequencer README
 # feat: add input validation to sanitise.py
 # fix: resolve import order in generation_models
+# refactor: rename variables for clarity in model_1.py
