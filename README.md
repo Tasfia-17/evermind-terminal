@@ -177,3 +177,4 @@ EverMindTerminal/
 # refactor: use dataclasses in model_json.py
 # docs: add troubleshooting section to README
 # feat: add session persistence to main.py
+# fix: incorrect default in data.py
