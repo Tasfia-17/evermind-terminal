@@ -194,3 +194,4 @@ EverMindTerminal/
 # docs: update concat model README
 # feat: add output formatting options
 # fix: model_3 response parsing error
+# refactor: use pathlib in setup scripts
