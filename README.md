@@ -172,3 +172,4 @@ EverMindTerminal/
 # fix: handle API rate limit in model_6.py
 # refactor: improve privacy_filter patterns
 # docs: document memory module
+# feat: add progress indicator to terminal GUI
