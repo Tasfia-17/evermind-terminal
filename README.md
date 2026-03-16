@@ -214,3 +214,4 @@ EverMindTerminal/
 # docs: add performance tips to README
 # feat: add model warm-up on startup
 # fix: json_parsing handles malformed input
+# refactor: extract prompt builder module
