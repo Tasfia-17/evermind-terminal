@@ -126,3 +126,4 @@ EverMindTerminal/
 # docs: add docstrings to parser.py
 # feat: add logging to evermem_client
 # fix: handle edge case in privacy_filter
+# refactor: extract helper functions in main.py
