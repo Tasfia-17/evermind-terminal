@@ -9,9 +9,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-GPL%20v3-7c3aed?style=flat-square)](LICENSE)
 [![Memory](https://img.shields.io/badge/Memory-EverMemOS-06b6d4?style=flat-square)](https://github.com/EverMind-AI/EverMemOS)
-[![Winner](https://img.shields.io/badge/Winner-Memory%20Genesis%202026-f59e0b?style=flat-square)]()
-
-*Winner of the Memory Genesis Competition 2026, Track 1: Agent + Memory*
 
 </div>
 

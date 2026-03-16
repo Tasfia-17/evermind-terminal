@@ -1,27 +1,69 @@
 <svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0f1a"/>
-      <stop offset="100%" stop-color="#1a1a2e"/>
+      <stop offset="0%" stop-color="#13111e"/>
+      <stop offset="100%" stop-color="#1e1a2e"/>
     </linearGradient>
-    <linearGradient id="ring1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#06b6d4"/>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="160" height="160" rx="36" fill="url(#bg)"/>
-  <circle cx="80" cy="80" r="62" fill="none" stroke="url(#ring1)" stroke-width="2" opacity="0.5"/>
-  <circle cx="80" cy="80" r="48" fill="none" stroke="url(#ring1)" stroke-width="1" opacity="0.25"/>
-  <!-- Brain shape -->
-  <path d="M62 68 Q56 60 62 54 Q70 48 76 56 Q79 50 84 50 Q92 47 95 56 Q103 53 104 63 Q110 68 106 76 Q110 84 103 88 Q101 96 93 93 Q89 100 82 97 Q75 101 69 96 Q61 93 63 85 Q56 80 62 74 Q58 71 62 68Z"
-    fill="none" stroke="#7c3aed" stroke-width="2.2" filter="url(#glow)" opacity="0.95"/>
-  <!-- Pulse line -->
-  <polyline points="44,80 56,80 62,68 68,92 74,74 80,84 86,76 92,80 116,80"
-    fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-  <!-- Center dot -->
-  <circle cx="80" cy="80" r="3" fill="#06b6d4" filter="url(#glow)"/>
+
+  <!-- Background rounded square -->
+  <rect width="160" height="160" rx="38" fill="url(#bg)"/>
+
+  <!-- Soft outer glow ring -->
+  <circle cx="80" cy="80" r="66" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.3" filter="url(#softglow)"/>
+
+  <!-- Decorative dots -->
+  <circle cx="30" cy="30" r="2.5" fill="#a78bfa" opacity="0.5"/>
+  <circle cx="130" cy="30" r="2.5" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="30" cy="130" r="2.5" fill="#f472b6" opacity="0.5"/>
+  <circle cx="130" cy="130" r="2.5" fill="#a78bfa" opacity="0.5"/>
+
+  <!-- Cute terminal screen shape -->
+  <rect x="28" y="38" width="104" height="72" rx="10" fill="#0d0b18" stroke="url(#g1)" stroke-width="1.8"/>
+
+  <!-- Screen shine -->
+  <rect x="32" y="42" width="96" height="8" rx="4" fill="white" opacity="0.04"/>
+
+  <!-- Terminal prompt lines -->
+  <rect x="38" y="56" width="10" height="3" rx="1.5" fill="#a78bfa" opacity="0.9"/>
+  <rect x="52" y="56" width="36" height="3" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+
+  <rect x="38" y="65" width="10" height="3" rx="1.5" fill="#f472b6" opacity="0.9"/>
+  <rect x="52" y="65" width="50" height="3" rx="1.5" fill="#cdd6f4" opacity="0.4"/>
+
+  <!-- Pulse / heartbeat line -->
+  <polyline points="38,82 48,82 53,72 58,92 63,78 68,86 73,80 78,82 104,82"
+    fill="none" stroke="url(#g1)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+
+  <!-- Blinking cursor -->
+  <rect x="38" y="96" width="7" height="4" rx="1" fill="#38bdf8" opacity="0.9" filter="url(#glow)"/>
+
+  <!-- Cute little brain icon above screen -->
+  <ellipse cx="80" cy="32" rx="12" ry="9" fill="none" stroke="url(#g2)" stroke-width="1.6" filter="url(#glow)"/>
+  <path d="M74 32 Q76 27 80 29 Q84 27 86 32" fill="none" stroke="url(#g2)" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="80" cy="32" r="2" fill="#f472b6" opacity="0.8" filter="url(#glow)"/>
+
+  <!-- Small sparkles -->
+  <text x="18" y="78" font-size="9" fill="#a78bfa" opacity="0.7" font-family="sans-serif">✦</text>
+  <text x="136" y="65" font-size="7" fill="#38bdf8" opacity="0.6" font-family="sans-serif">✦</text>
+  <text x="140" y="90" font-size="5" fill="#f472b6" opacity="0.5" font-family="sans-serif">✦</text>
+
+  <!-- Bottom label -->
+  <text x="80" y="128" text-anchor="middle" font-size="9" fill="url(#g1)" font-family="monospace" font-weight="bold" letter-spacing="2">EVERMIND</text>
 </svg>
