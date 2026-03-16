@@ -200,3 +200,4 @@ EverMindTerminal/
 # fix: pyproject.toml dependency version pins
 # refactor: improve error propagation in sequencer
 # docs: document all CLI flags
+# feat: add export command to terminal GUI
