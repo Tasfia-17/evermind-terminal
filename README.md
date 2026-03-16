@@ -155,3 +155,4 @@ EverMindTerminal/
 # feat: cache model responses in concat.py
 # fix: correct SQL in table_creation.sql
 # refactor: split large functions in system_commands.py
+# docs: add changelog section to README
