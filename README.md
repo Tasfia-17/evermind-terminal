@@ -144,3 +144,4 @@ EverMindTerminal/
 # fix: memory leak in evermem_client
 # refactor: unify error messages across modules
 # docs: document environment variables in .env.template
+# feat: add model selection prompt
