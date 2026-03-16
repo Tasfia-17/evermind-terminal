@@ -123,3 +123,4 @@ EverMindTerminal/
 # feat: improve error handling in sequencer
 # fix: correct typo in address.py
 # refactor: simplify concat model logic
+# docs: add docstrings to parser.py
