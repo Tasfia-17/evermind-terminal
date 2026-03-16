@@ -164,3 +164,4 @@ EverMindTerminal/
 # fix: off-by-one in sequencer loop
 # refactor: consolidate model init code
 # docs: add FAQ to README
+# feat: add dry-run mode to setup.sh
