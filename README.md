@@ -157,3 +157,4 @@ EverMindTerminal/
 # refactor: split large functions in system_commands.py
 # docs: add changelog section to README
 # feat: add timeout to API calls in model_5.py
+# fix: encoding issue in address.py
