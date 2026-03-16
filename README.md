@@ -139,3 +139,4 @@ EverMindTerminal/
 # feat: add verbose mode flag to main.py
 # fix: correct path handling in setup.sh
 # refactor: simplify categoriser logic
+# docs: add example output to README
