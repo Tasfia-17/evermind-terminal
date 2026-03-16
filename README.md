@@ -135,3 +135,4 @@ EverMindTerminal/
 # feat: add retry logic to evermem_client
 # fix: null check in json parser
 # refactor: move constants to data.py
+# docs: improve setup README
