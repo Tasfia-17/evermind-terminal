@@ -210,3 +210,4 @@ EverMindTerminal/
 # docs: add deployment notes
 # feat: add auto-update check
 # fix: setup.ps1 path separator issue
+# refactor: reduce cyclomatic complexity in main.py
