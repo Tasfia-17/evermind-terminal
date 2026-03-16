@@ -117,3 +117,4 @@ EverMindTerminal/
 2. Injected into Gemini reasoning
 3. Action executed in the terminal
 4. Result stored back as new memory
+# feat: add type hints to model_json.py
