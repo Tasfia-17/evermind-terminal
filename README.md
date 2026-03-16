@@ -132,3 +132,4 @@ EverMindTerminal/
 # fix: resolve import order in generation_models
 # refactor: rename variables for clarity in model_1.py
 # docs: add inline comments to concat.py
+# feat: add retry logic to evermem_client
