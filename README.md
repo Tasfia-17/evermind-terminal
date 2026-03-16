@@ -206,3 +206,4 @@ EverMindTerminal/
 # docs: add system requirements
 # feat: add multi-model comparison mode
 # fix: concat model output truncation
+# refactor: improve type annotations in parser
