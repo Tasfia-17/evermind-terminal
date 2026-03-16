@@ -158,3 +158,4 @@ EverMindTerminal/
 # docs: add changelog section to README
 # feat: add timeout to API calls in model_5.py
 # fix: encoding issue in address.py
+# refactor: use f-strings throughout codebase
