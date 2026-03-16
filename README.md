@@ -205,3 +205,4 @@ EverMindTerminal/
 # refactor: consolidate README files
 # docs: add system requirements
 # feat: add multi-model comparison mode
+# fix: concat model output truncation
