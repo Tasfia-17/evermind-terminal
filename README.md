@@ -208,3 +208,4 @@ EverMindTerminal/
 # fix: concat model output truncation
 # refactor: improve type annotations in parser
 # docs: add deployment notes
+# feat: add auto-update check
