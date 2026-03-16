@@ -149,3 +149,4 @@ EverMindTerminal/
 # refactor: improve sequencer step ordering
 # docs: add architecture overview to README
 # feat: add color output to terminal GUI
+# fix: handle empty response in model_2.py
