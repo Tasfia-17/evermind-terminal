@@ -129,3 +129,4 @@ EverMindTerminal/
 # refactor: extract helper functions in main.py
 # docs: update sequencer README
 # feat: add input validation to sanitise.py
+# fix: resolve import order in generation_models
