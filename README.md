@@ -218,3 +218,4 @@ EverMindTerminal/
 # docs: finalize README for submission
 # chore: bump version in pyproject.toml
 # chore: clean up temp files
+# chore: final pre-submission cleanup
