@@ -153,3 +153,4 @@ EverMindTerminal/
 # refactor: deduplicate code in model_3 and model_4
 # docs: add contributing guide to README
 # feat: cache model responses in concat.py
+# fix: correct SQL in table_creation.sql
