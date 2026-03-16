@@ -136,3 +136,4 @@ EverMindTerminal/
 # fix: null check in json parser
 # refactor: move constants to data.py
 # docs: improve setup README
+# feat: add verbose mode flag to main.py
