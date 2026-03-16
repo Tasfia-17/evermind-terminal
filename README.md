@@ -189,3 +189,4 @@ EverMindTerminal/
 # refactor: move utils to dedicated submodules
 # docs: add API reference to README
 # feat: add config file support
+# fix: address book duplicate entries
