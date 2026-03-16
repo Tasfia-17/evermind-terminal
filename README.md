@@ -179,3 +179,4 @@ EverMindTerminal/
 # feat: add session persistence to main.py
 # fix: incorrect default in data.py
 # refactor: clean up unused imports
+# docs: update setup instructions
