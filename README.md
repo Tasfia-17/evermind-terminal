@@ -176,3 +176,4 @@ EverMindTerminal/
 # fix: crash on empty input in parser.py
 # refactor: use dataclasses in model_json.py
 # docs: add troubleshooting section to README
+# feat: add session persistence to main.py
