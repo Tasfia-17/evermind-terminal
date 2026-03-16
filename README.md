@@ -122,3 +122,4 @@ EverMindTerminal/
 # docs: update README with usage examples
 # feat: improve error handling in sequencer
 # fix: correct typo in address.py
+# refactor: simplify concat model logic
