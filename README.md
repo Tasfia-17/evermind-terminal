@@ -186,3 +186,4 @@ EverMindTerminal/
 # docs: add license header to source files
 # feat: add command history to terminal GUI
 # fix: sequencer skips empty steps
+# refactor: move utils to dedicated submodules
