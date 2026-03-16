@@ -146,3 +146,4 @@ EverMindTerminal/
 # docs: document environment variables in .env.template
 # feat: add model selection prompt
 # fix: strip whitespace in sanitiser
+# refactor: improve sequencer step ordering
