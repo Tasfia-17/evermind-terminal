@@ -125,3 +125,4 @@ EverMindTerminal/
 # refactor: simplify concat model logic
 # docs: add docstrings to parser.py
 # feat: add logging to evermem_client
+# fix: handle edge case in privacy_filter
