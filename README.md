@@ -196,3 +196,4 @@ EverMindTerminal/
 # fix: model_3 response parsing error
 # refactor: use pathlib in setup scripts
 # docs: add quickstart guide
+# feat: add debug logging flag
