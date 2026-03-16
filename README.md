@@ -148,3 +148,4 @@ EverMindTerminal/
 # fix: strip whitespace in sanitiser
 # refactor: improve sequencer step ordering
 # docs: add architecture overview to README
+# feat: add color output to terminal GUI
