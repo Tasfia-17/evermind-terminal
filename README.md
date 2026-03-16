@@ -198,3 +198,4 @@ EverMindTerminal/
 # docs: add quickstart guide
 # feat: add debug logging flag
 # fix: pyproject.toml dependency version pins
+# refactor: improve error propagation in sequencer
