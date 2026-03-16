@@ -191,3 +191,4 @@ EverMindTerminal/
 # feat: add config file support
 # fix: address book duplicate entries
 # refactor: simplify evermem_client interface
+# docs: update concat model README
