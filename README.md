@@ -137,3 +137,4 @@ EverMindTerminal/
 # refactor: move constants to data.py
 # docs: improve setup README
 # feat: add verbose mode flag to main.py
+# fix: correct path handling in setup.sh
