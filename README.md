@@ -182,3 +182,4 @@ EverMindTerminal/
 # docs: update setup instructions
 # feat: add model_7 temperature control
 # fix: handle unicode in sanitiser
+# refactor: improve test coverage structure
