@@ -168,3 +168,4 @@ EverMindTerminal/
 # fix: missing newline at end of sanitise.py
 # refactor: extract config loader in main.py
 # docs: add badges to README
+# feat: support multiple memory backends
