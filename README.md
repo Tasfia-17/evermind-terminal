@@ -180,3 +180,4 @@ EverMindTerminal/
 # fix: incorrect default in data.py
 # refactor: clean up unused imports
 # docs: update setup instructions
+# feat: add model_7 temperature control
