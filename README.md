@@ -187,3 +187,4 @@ EverMindTerminal/
 # feat: add command history to terminal GUI
 # fix: sequencer skips empty steps
 # refactor: move utils to dedicated submodules
+# docs: add API reference to README
