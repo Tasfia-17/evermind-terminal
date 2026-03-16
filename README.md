@@ -175,3 +175,4 @@ EverMindTerminal/
 # feat: add progress indicator to terminal GUI
 # fix: crash on empty input in parser.py
 # refactor: use dataclasses in model_json.py
+# docs: add troubleshooting section to README
