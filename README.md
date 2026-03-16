@@ -162,3 +162,4 @@ EverMindTerminal/
 # docs: update python-version note
 # feat: add health check to evermem_client
 # fix: off-by-one in sequencer loop
+# refactor: consolidate model init code
