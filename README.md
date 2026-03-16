@@ -217,3 +217,4 @@ EverMindTerminal/
 # refactor: extract prompt builder module
 # docs: finalize README for submission
 # chore: bump version in pyproject.toml
+# chore: clean up temp files
