@@ -183,3 +183,4 @@ EverMindTerminal/
 # feat: add model_7 temperature control
 # fix: handle unicode in sanitiser
 # refactor: improve test coverage structure
+# docs: add license header to source files
