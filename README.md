@@ -160,3 +160,4 @@ EverMindTerminal/
 # fix: encoding issue in address.py
 # refactor: use f-strings throughout codebase
 # docs: update python-version note
+# feat: add health check to evermem_client
