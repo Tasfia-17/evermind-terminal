@@ -156,3 +156,4 @@ EverMindTerminal/
 # fix: correct SQL in table_creation.sql
 # refactor: split large functions in system_commands.py
 # docs: add changelog section to README
+# feat: add timeout to API calls in model_5.py
