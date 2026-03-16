@@ -199,3 +199,4 @@ EverMindTerminal/
 # feat: add debug logging flag
 # fix: pyproject.toml dependency version pins
 # refactor: improve error propagation in sequencer
+# docs: document all CLI flags
