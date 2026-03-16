@@ -119,3 +119,4 @@ EverMindTerminal/
 4. Result stored back as new memory
 # feat: add type hints to model_json.py
 # refactor: clean up imports in main.py
+# docs: update README with usage examples
