@@ -1,0 +1,40 @@
+<svg width="760" height="80" viewBox="0 0 760 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="80" fill="#0d0d1a" rx="12"/>
+  <!-- Timeline line -->
+  <line x1="60" y1="36" x2="700" y2="36" stroke="#1e1e2e" stroke-width="3"/>
+  <line x1="60" y1="36" x2="700" y2="36" stroke="url(#tl)" stroke-width="2"/>
+  <!-- Nodes -->
+  <circle cx="100" cy="36" r="10" fill="#7c3aed"/>
+  <circle cx="100" cy="36" r="5"  fill="#e0d7ff"/>
+  <text x="100" y="60" text-anchor="middle" font-size="8.5" fill="#9399b2" font-family="sans-serif">Web Dashboard</text>
+
+  <circle cx="250" cy="36" r="10" fill="#06b6d4"/>
+  <circle cx="250" cy="36" r="5"  fill="#cffafe"/>
+  <text x="250" y="60" text-anchor="middle" font-size="8.5" fill="#9399b2" font-family="sans-serif">Voice Commands</text>
+
+  <circle cx="400" cy="36" r="10" fill="#10b981"/>
+  <circle cx="400" cy="36" r="5"  fill="#d1fae5"/>
+  <text x="400" y="60" text-anchor="middle" font-size="8.5" fill="#9399b2" font-family="sans-serif">Local LLM Support</text>
+
+  <circle cx="550" cy="36" r="10" fill="#f59e0b"/>
+  <circle cx="550" cy="36" r="5"  fill="#fef3c7"/>
+  <text x="550" y="60" text-anchor="middle" font-size="8.5" fill="#9399b2" font-family="sans-serif">Team Memory Sync</text>
+
+  <circle cx="680" cy="36" r="10" fill="#f38ba8"/>
+  <circle cx="680" cy="36" r="5"  fill="#ffe4e6"/>
+  <text x="680" y="60" text-anchor="middle" font-size="8.5" fill="#9399b2" font-family="sans-serif">Memory Controls</text>
+
+  <!-- Labels above -->
+  <text x="100" y="20" text-anchor="middle" font-size="8" fill="#7c3aed" font-family="monospace">v1.1</text>
+  <text x="250" y="20" text-anchor="middle" font-size="8" fill="#06b6d4" font-family="monospace">v1.2</text>
+  <text x="400" y="20" text-anchor="middle" font-size="8" fill="#10b981" font-family="monospace">v2.0</text>
+  <text x="550" y="20" text-anchor="middle" font-size="8" fill="#f59e0b" font-family="monospace">v2.1</text>
+  <text x="680" y="20" text-anchor="middle" font-size="8" fill="#f38ba8" font-family="monospace">v3.0</text>
+</svg>

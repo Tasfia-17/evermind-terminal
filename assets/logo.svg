@@ -1,0 +1,27 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="ring1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="160" height="160" rx="36" fill="url(#bg)"/>
+  <circle cx="80" cy="80" r="62" fill="none" stroke="url(#ring1)" stroke-width="2" opacity="0.5"/>
+  <circle cx="80" cy="80" r="48" fill="none" stroke="url(#ring1)" stroke-width="1" opacity="0.25"/>
+  <!-- Brain shape -->
+  <path d="M62 68 Q56 60 62 54 Q70 48 76 56 Q79 50 84 50 Q92 47 95 56 Q103 53 104 63 Q110 68 106 76 Q110 84 103 88 Q101 96 93 93 Q89 100 82 97 Q75 101 69 96 Q61 93 63 85 Q56 80 62 74 Q58 71 62 68Z"
+    fill="none" stroke="#7c3aed" stroke-width="2.2" filter="url(#glow)" opacity="0.95"/>
+  <!-- Pulse line -->
+  <polyline points="44,80 56,80 62,68 68,92 74,74 80,84 86,76 92,80 116,80"
+    fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <!-- Center dot -->
+  <circle cx="80" cy="80" r="3" fill="#06b6d4" filter="url(#glow)"/>
+</svg>
